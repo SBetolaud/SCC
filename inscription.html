@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Inscription</title>
+	<link rel="stylesheet" type="text/css" href="style_facebook2.css">
+</head>
+<body>
+	
+	<h1>Formulaire d'inscription</h1>
+
+		<form action = "" method = "post">
+			
+		<div class = "formulaire">	
+				<div class = "premiere_partie">
+
+					<label for ="nom" class="nom">Saisir nom :</label>
+
+					<input type="text" name="nom" class = "nom">
+					<br>
+					<br>
+
+					<label for = "prenom" class = "prenom">Saisir prénom</label>
+					<input type="text" name="prenom" class = "prenom">
+					<br>
+					<br>
+					<label for = "ville" class = "ville">Choisir la ville</label>
+					<select name = "ville" class ="ville">
+						<option value = "France">France</option>
+						<option value = grèce>Grèce</option>
+						<option value = "Danemark">Danemark</option>
+						<option value = "allemagne">Allemagne</option>
+						<option value = espagne>Espagne</option>
+						<option value = "portugal">Portugal</option>
+						<option value = "belgique">Belgique</option>
+					</select>
+					<br>
+					<br>
+				</div>
+
+				<div class = "seconde_partie">
+
+					<label for = "genre">Choisir le sexe</label>
+					<select name = "genre" class="genre">
+						<option value = "Homme">Homme</option>
+						<option value = "Femme">Femme</option>
+					</select>
+					<br>
+					<br>
+
+					<label for = "mail" >Saisir le mail</label>
+					<input type="mail" name="mail">
+					<br>
+					<br>
+					<label for = "mdp">Mot de passe</label>
+					<input type="password" name="mdp">
+					<br>
+					<br>
+				</div>
+				<div class = "troisieme_partie">	
+					<label for ="cmdp">Confirmer mot de passe</label>
+					<input type="password" name="cmdp">
+					<br>
+					<br>
+					<label for = "dateNaiss">Date de naissance</label>
+					<input type="date" class="dateNaiss" name="dateNaiss">
+					<br>
+					<br>
+				</div>
+		</div>
+				<div class = "bouton">
+					<label for = "soumettre"></label>
+					<input type="submit" name="soumettre" value = "soumettre">
+				</div>
+		
+
+
+		<footer>
+			<a href="site_style_facebook.html">
+				Revenir a la page principale
+			</a>
+		</footer>
+</body>
+</html>

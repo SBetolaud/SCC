@@ -1,0 +1,59 @@
+label
+{
+	color:black;
+	width: 10px;
+
+
+}
+
+a
+{
+	color: white;
+}
+
+input
+{
+	width: 100px;
+}
+
+.separateur
+{
+	background: url("separateur.png");
+	height: 5px;
+	width: 100%;
+}
+
+.bande
+{
+	display:inline-block;
+	background-color: black;
+	height: 100%;
+	width: 20px;
+	vertical-align: left
+
+}
+
+.nom_du_site
+{
+	color : blue;
+	font-family: sans-serif;
+	text-align: center;
+	font-size : 50px;
+}
+
+header
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.image_du_site
+{
+	display: flex;
+	justify-content: center;
+}
+
+body
+{
+	background: url("im3.jpg");
+}

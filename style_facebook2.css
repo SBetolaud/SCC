@@ -1,0 +1,78 @@
+
+
+input
+{
+	width: 100px;
+	height: 20px;
+	
+}
+
+
+h1
+{
+	font-family: "police_form3";
+	color: blue;
+	font-size: 50px;
+	text-align: center;
+	
+
+
+}
+
+label
+{
+	font-size: 20px;
+	font-family: 'police_form2';
+}
+
+
+
+body
+{
+	background: url("image_bleu.jpg");
+}
+
+@font-face 
+{
+	font-family: "police_form1";
+	src : url("police/SourceCodePro-Light.otf");
+}
+
+@font-face
+{
+	font-family: "police_form2";
+	src:url("police/SourceCodePro-Medium.otf");
+}
+@font-face
+{
+	font-family: "police_form3";
+	src:url("police/SourceCodePro-SemiBold.otf");
+}
+
+footer a
+{
+	display: flex;
+	justify-content: flex-end;
+	color: red;
+	width: auto;
+}
+
+
+
+.bouton
+{
+	display: flex;
+	justify-content: center;
+}
+
+.formulaire
+{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.dateNaiss
+{
+	width: 130px;
+	height: 20px;
+}
