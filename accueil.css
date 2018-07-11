@@ -1,0 +1,28 @@
+.separateur
+{
+	background: url("separateur.png");
+	height: 5px;
+	width: 100%;
+}
+
+header
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+body
+{
+	background: url("im3.jpg");
+	background-attachment: fixed;s
+}
+
+.liens p
+{
+	color: red;
+}
+
+.liens a
+{
+	color: yellow;
+}
